@@ -25,12 +25,11 @@ bash <(curl -sL https://s.hijk.art/v2ray.sh)
 ```bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 ```
+---
 ###### MTProxy TLS 脚本
 ```bash
 mkdir /home/mtproxy && cd /home/mtproxy
 curl -s -o mtproxy.sh https://raw.githubusercontent.com/ellermister/mtproxy/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtprox
-```
-```bash
 bash mtproxy.sh start 开始
 bash mtproxy.sh stop 停止
 bash mtproxy.sh restart 重启
