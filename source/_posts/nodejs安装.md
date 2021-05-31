@@ -7,35 +7,35 @@ title: nodejs安装
 **[项目地址](https://github.com/nodesource/distributions#debinstall)**  
 ###### 安装16.x的版本(目前最新)  
 
-```bash
+```shell
 # Using Ubuntu
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E shell -
 sudo apt-get install -y nodejs
 
 # Using Debian, as root
-curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
+curl -fsSL https://deb.nodesource.com/setup_16.x | shell -
 apt-get install -y nodejs
 ```
 ###### 安装15.x的版本(目前最新)  
 
-```bash
+```shell
 # Using Ubuntu
-curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E shell -
 sudo apt-get install -y nodejs
 
 # Using Debian, as root
-curl -fsSL https://deb.nodesource.com/setup_15.x | bash -
+curl -fsSL https://deb.nodesource.com/setup_15.x | shell -
 apt-get install -y nodejs
 ```
 ###### 安装14.x的版本(目前最新)  
 
-```bash
+```shell
 # Using Ubuntu
-curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E shell -
 sudo apt-get install -y nodejs
 
 # Using Debian, as root
-curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
+curl -fsSL https://deb.nodesource.com/setup_14.x | shell -
 apt-get install -y nodejs
 ```
 ---
