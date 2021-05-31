@@ -28,5 +28,12 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 ###### MTProxy TLS 脚本
 ```bash
 mkdir /home/mtproxy && cd /home/mtproxy
-curl -s -o mtproxy.sh https://raw.githubusercontent.com/ellermister/mtproxy/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+curl -s -o mtproxy.sh https://raw.githubusercontent.com/ellermister/mtproxy/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtprox
 ```
+###### MTP运行 停止 重启
+```bash
+bash mtproxy.sh start
+bash mtproxy.sh stop
+bash mtproxy.sh restart
+```
+
