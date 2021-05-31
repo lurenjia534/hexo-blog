@@ -30,10 +30,9 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 mkdir /home/mtproxy && cd /home/mtproxy
 curl -s -o mtproxy.sh https://raw.githubusercontent.com/ellermister/mtproxy/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtprox
 ```
-###### MTP运行 停止 重启
 ```bash
-bash mtproxy.sh start
-bash mtproxy.sh stop
-bash mtproxy.sh restart
+bash mtproxy.sh start 开始
+bash mtproxy.sh stop 停止
+bash mtproxy.sh restart 重启
 ```
 
