@@ -39,4 +39,4 @@ curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
 apt-get install -y nodejs
 ```
 ---
-###### 🍋这样npm和nodejs全部安装完毕~🍎
+###### 后记:🍋这样npm和nodejs全部安装完毕~🍎
