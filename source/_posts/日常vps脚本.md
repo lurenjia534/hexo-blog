@@ -1,7 +1,7 @@
 ---
 title: 日用vps脚本
 ---
-前言:日常需要的vps比较杂乱打算自己整理一下
+🍋前言:日常需要的vps比较杂乱打算自己整理一下
 
 ---
 ### 各类脚本
@@ -18,7 +18,7 @@ curl -so- 86.re/bench.sh | bash
 ---
 ###### v2ray搭建脚本，多合一，胜在方便
 ```bash
-bash <(curl -sL https://s.hijk.art/v2ray.sh)
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/dev/install.sh" && chmod +x install.sh && bash install.sh
 ```
 ---
 ###### 逗逼聚集地的大佬的ssr脚本
