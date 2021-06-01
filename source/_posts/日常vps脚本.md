@@ -20,6 +20,9 @@ curl -so- 86.re/bench.sh | shell
 ```shell
 wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_shell_onekey/dev/install.sh" && chmod +x install.sh && shell install.sh
 ```
+```shell
+bash <(curl -s -L https://git.io/v2ray.sh)
+```
 ---
 ###### 逗逼聚集地的大佬的ssr脚本
 ```shell
