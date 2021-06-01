@@ -33,6 +33,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 ```shell
 mkdir /home/mtproxy && cd /home/mtproxy
 curl -s -o mtproxy.sh https://raw.githubusercontent.com/ellermister/mtproxy/master/mtproxy.sh && chmod +x mtproxy.sh && shell mtprox
+```
+```shell
 shell mtproxy.sh start 开始
 shell mtproxy.sh stop 停止
 shell mtproxy.sh restart 重启
