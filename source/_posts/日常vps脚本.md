@@ -49,6 +49,6 @@ apt-get update && apt-get install curl #Ubuntu/Debian依赖
 apk update && apk add curl #Alpine依赖
 ```
 ```
-bash <(curl -sSL "https://github.com/CoiaPrant/MediaUnlock_Test/raw/main/check.sh") #脚本连接
+bash <(curl -sSL "https://github.com/CoiaPrant/MediaUnlock_Test/raw/main/check.sh")
 ```
 ---
