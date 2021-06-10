@@ -40,7 +40,6 @@ bash mtproxy.sh start #启动
 bash mtproxy.sh stop #停止
 bash mtproxy.sh restart #重启
 ```
-###### 删除方法:删掉目录即可
 ---
 ###### 流媒体解锁检测脚本
 ```
