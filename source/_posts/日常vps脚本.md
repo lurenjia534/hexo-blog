@@ -40,6 +40,7 @@ bash mtproxy.sh start #启动
 bash mtproxy.sh stop #停止
 bash mtproxy.sh restart #重启
 ```
+###### 删除方法:删掉目录即可
 ---
 ###### 流媒体解锁检测脚本
 ```
@@ -50,5 +51,4 @@ apk update && apk add curl #Alpine依赖
 ```
 bash <(curl -sSL "https://github.com/CoiaPrant/MediaUnlock_Test/raw/main/check.sh") #脚本连接
 ```
-###### 删除方法:删掉目录即可
 ---
