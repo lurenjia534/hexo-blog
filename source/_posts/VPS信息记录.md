@@ -43,3 +43,43 @@ title: VPS信息记录
 **总结:VPS CPU RAM IO都可以但是带宽太小了 国内都这样也习惯了**
 
 ---
+###### Microsoft Azure B1ls VPS 信息 (线路已知是AS8075)
+```
+----------------------------------------------------------------------
+ CPU Model            : Intel(R) Xeon(R) Platinum 8171M CPU @ 2.60GHz
+ CPU Cores            : 1 Cores 2095.197 MHz x86_64
+ CPU Cache            : 36608 KB 
+ OS                   : Ubuntu 18.04.5 LTS (64 Bit) Hyper-V
+ Kernel               : 5.4.0-1047-azure
+ Total Space          : 2.5 GB / 33.0 GB 
+ Total RAM            : 203 MB / 413 MB (189 MB Buff)
+ Total SWAP           : 0 MB / 0 MB
+ Uptime               : 5 days 21 hour 43 min
+ Load Average         : 0.02, 0.01, 0.00
+ TCP CC               : bbr
+ ASN & ISP            : AS8075, Microsoft Corporation
+ Organization         : Microsoft Azure Cloud (eastasia)
+ Location             : Hong Kong, Hong Kong / HK
+ Region               : Central and Western District
+----------------------------------------------------------------------
+ I/O Speed( 1.0GB )   : 51.9 MB/s
+ I/O Speed( 1.0GB )   : 52.2 MB/s
+ I/O Speed( 1.0GB )   : 52.2 MB/s
+ Average I/O Speed    : 52.1 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency     
+ Speedtest.net    913.39 Mbit/s     794.25 Mbit/s       3.16 ms     
+ Fast.com         0.00 Mbit/s       59.1 Mbit/s         -           
+ Nanjing 5G   CT  999.66 Mbit/s     6300.77 Mbit/s      32.93 ms    
+ Hefei 5G     CT  348.60 Mbit/s     4142.64 Mbit/s      48.85 ms    
+ TianJin 5G   CU  597.69 Mbit/s     5779.43 Mbit/s      55.51 ms    
+ Shanghai 5G  CU  688.92 Mbit/s     5000.60 Mbit/s      59.79 ms    
+ Guangzhou 5G CU  628.96 Mbit/s     4868.38 Mbit/s      56.32 ms    
+ Tianjin 5G   CM  996.63 Mbit/s     2644.22 Mbit/s      55.59 ms    
+ Wuxi 5G      CM  658.31 Mbit/s     14.61 Mbit/s        47.79 ms    
+ Nanjing 5G   CM  997.02 Mbit/s     52.84 Mbit/s        46.35 ms    
+ Hefei 5G     CM  998.83 Mbit/s     2380.14 Mbit/s      33.73 ms    
+ Changsha 5G  CM  998.08 Mbit/s     2081.10 Mbit/s      41.46 ms    
+----------------------------------------------------------------------
+```
+**总结IO CPU 拉 带宽是G口这点相当不错**
