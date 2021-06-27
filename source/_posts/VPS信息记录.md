@@ -43,7 +43,7 @@ title: VPS信息记录
 **总结:VPS CPU RAM IO都可以但是带宽太小了 国内都这样也习惯了**
 
 ---
-###### Microsoft Azure B1ls VPS 信息 (线路已知是AS8075)
+###### Microsoft Azure B1ls HK VPS 信息 (线路已知是AS8075)
 ```
 ----------------------------------------------------------------------
  CPU Model            : Intel(R) Xeon(R) Platinum 8171M CPU @ 2.60GHz
@@ -82,4 +82,50 @@ title: VPS信息记录
  Changsha 5G  CM  998.08 Mbit/s     2081.10 Mbit/s      41.46 ms    
 ----------------------------------------------------------------------
 ```
+
 **总结:IO CPU 拉 带宽是G口这点相当不错 但是价格相当昂贵 流量按照0.12刀/G计费 B1ls本体是5刀/月**
+
+---
+
+###### Microsoft Azure B1s JP VPS 信息 (线路已知是AS8075)
+
+```
+----------------------------------------------------------------------
+ CPU Model            : Intel(R) Xeon(R) Platinum 8171M CPU @ 2.60GHz
+ CPU Cores            : 1 Cores 2095.225 MHz x86_64
+ CPU Cache            : 36608 KB 
+ OS                   : Ubuntu 18.04.5 LTS (64 Bit) Hyper-V
+ Kernel               : 5.4.0-1051-azure
+ Total Space          : 1.4 GB / 66.0 GB 
+ Total RAM            : 147 MB / 917 MB (272 MB Buff)
+ Total SWAP           : 0 MB / 0 MB
+ Uptime               : 0 days 0 hour 2 min
+ Load Average         : 0.13, 0.10, 0.04
+ TCP CC               : cubic
+ ASN & ISP            : AS8075, Microsoft Corporation
+ Organization         : Microsoft Azure Cloud (japaneast)
+ Location             : Tokyo, Japan / JP
+ Region               : Tokyo
+----------------------------------------------------------------------
+ I/O Speed( 1.0GB )   : 50.5 MB/s
+ I/O Speed( 1.0GB )   : 50.8 MB/s
+ I/O Speed( 1.0GB )   : 51.1 MB/s
+ Average I/O Speed    : 50.8 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency     
+ Speedtest.net    953.58 Mbit/s     9966.06 Mbit/s      1.69 ms     
+ Fast.com         0.00 Mbit/s       36.1 Mbit/s         -           
+ Nanjing 5G   CT  953.52 Mbit/s     5733.36 Mbit/s      79.00 ms    
+ Hefei 5G     CT  3.13 Mbit/s       3270.45 Mbit/s      82.96 ms    
+ Guangzhou 5G CT  0.82 Mbit/s       465.79 Mbit/s       80.67 ms    
+ TianJin 5G   CU  952.10 Mbit/s     5605.65 Mbit/s      67.73 ms    
+ Shanghai 5G  CU  960.46 Mbit/s     5200.44 Mbit/s      54.07 ms    
+ Tianjin 5G   CM  791.84 Mbit/s     1779.45 Mbit/s      79.47 ms    
+ Nanjing 5G   CM  961.48 Mbit/s     1459.23 Mbit/s      64.38 ms    
+ Hefei 5G     CM  952.93 Mbit/s     2295.88 Mbit/s      58.63 ms    
+----------------------------------------------------------------------
+```
+
+**总结:IO CPU 拉 带宽是G口这点相当不错 但是价格相当昂贵 流量按照0.12刀/G计费 B1s本体是10刀/月**
+
+---
