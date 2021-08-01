@@ -1,5 +1,5 @@
 ---
-title:Openwrt for index
+title: Openwrt for index
 ---
 
 **[GitHub云编译教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)**  
