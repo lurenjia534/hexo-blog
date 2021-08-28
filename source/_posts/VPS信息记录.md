@@ -1,12 +1,13 @@
 ---
 title: VPS信息记录
 ---
-#### 记录各类VPS信息的地方
+###### 记录各类VPS信息的地方
+
 ---
 
 ###### 腾讯云香港VPS信息
 
-```
+```bash
 ----------------------------------------------------------------------
  CPU Model            : Intel(R) Xeon(R) CPU E5-26xx v4
  CPU Cores            : 1 Cores 2394.454 MHz x86_64
@@ -41,12 +42,16 @@ title: VPS信息记录
  Nanjing 5G   CM  37.68 Mbit/s      92.69 Mbit/s        44.71 ms    
  Hefei 5G     CM  28.39 Mbit/s      110.18 Mbit/s       31.26 ms    
 ----------------------------------------------------------------------
+
 ```
+
 **总结:VPS CPU RAM IO都可以但是带宽太小了 国内都这样也习惯了**
 
 ---
+
 ###### Microsoft Azure B1ls HK VPS 信息 (线路已知是AS8075)
-```
+
+```bash
 ----------------------------------------------------------------------
  CPU Model            : Intel(R) Xeon(R) Platinum 8171M CPU @ 2.60GHz
  CPU Cores            : 1 Cores 2095.197 MHz x86_64
@@ -91,7 +96,7 @@ title: VPS信息记录
 
 ###### Microsoft Azure B1s JP VPS 信息 (线路已知是AS8075)
 
-```
+```bash
 ----------------------------------------------------------------------
  CPU Model            : Intel(R) Xeon(R) Platinum 8171M CPU @ 2.60GHz
  CPU Cores            : 1 Cores 2095.225 MHz x86_64

@@ -5,9 +5,10 @@ title: nodejs安装
 
 ---
 **[项目地址](https://github.com/nodesource/distributions#debinstall)**  
+
 ###### 安装16.x的版本(目前最新)  
 
-```
+```bash
 # Using Ubuntu
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -19,7 +20,7 @@ apt-get install -y nodejs
 
 ###### 安装14.x的版本(目前最新)  
 
-```
+```bash
 # Using Ubuntu
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -28,5 +29,7 @@ sudo apt-get install -y nodejs
 curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
 apt-get install -y nodejs
 ```
+
 ---
+
 ###### 后记:🍋这样npm和nodejs全部安装完毕~🍎
